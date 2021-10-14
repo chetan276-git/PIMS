@@ -48,31 +48,34 @@ li {
     list-style: none;
 }
 
+
+/*Box-section-start*/
+
 .box {
     margin-top: 20px;
 }
 
-.for-bg {
+.box .for-bg {
     background-color: var(--secondary-color);
 }
 
-.content {
+.box .content {
     padding: 50px 0;
 }
 
-.content h2 {
+.box .content h2 {
     font-size: 16px;
     font-weight: 500;
     color: #fff;
 }
 
-.number {
+.box .content .number {
     font-size: 42px;
     font-weight: 700;
     color: #fff;
 }
 
-.number sup {
+.box .content .number sup {
     font-size: 32px;
     font-weight: 600;
     color: var(--primary-color);
@@ -80,11 +83,21 @@ li {
     left: -3px;
 }
 
+
+/*Box-section-end*/
+
+
+/*Product-section-start*/
+
 .product {
     margin-top: 75px;
 }
 
-.heading {
+.product .main-heading {
+    margin-bottom: 1rem;
+}
+
+.product .main-heading .heading {
     position: relative;
     left: 5%;
     color: var(--secondary-color);
@@ -92,7 +105,7 @@ li {
     font-weight: 500;
 }
 
-.solid-line {
+.product .main-heading .solid-line {
     width: 45px;
     height: 3px;
     background-color: var(--primary-color);
@@ -100,34 +113,40 @@ li {
     top: 33%;
 }
 
-.title h2 {
-    font-size: 34px;
+.product .three-block .title h2 {
+    font-size: 32px;
     font-weight: 500;
     color: var(--secondary-color);
 }
 
-.para {
-    margin-left: 40px;
-}
-
-.para p {
+.product .three-block .para p {
     font-size: 16px;
     font-weight: 400;
     color: #6c7084;
 }
 
-.btn {
+.product .three-block .btn {
     padding: 12px 32px 12px 32px !important;
     border-radius: 50px!important;
     color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
-.box-img .img img {
+.product .two-block {
+    margin: 60px 0;
+}
+
+.product .two-block .box-img .img img {
     position: relative;
 }
 
-.for-box-img {
+.product .two-block .box-img .img img {
+    width: 100%;
+    height: 318px;
+    object-fit: cover;
+}
+
+.product .two-block .box-img .for-box-img {
     content: '';
     position: absolute;
     top: 80%;
@@ -137,17 +156,7 @@ li {
     background-color: var(--secondary-color);
 }
 
-.img img {
-    width: 100%;
-    height: 318px;
-    object-fit: cover;
-}
-
-.two-block {
-    margin: 60px 0;
-}
-
-.for-box-img .text h3 {
+.product .two-block .for-box-img .text h3 {
     position: absolute;
     width: 100%;
     height: 100px;
@@ -156,3 +165,6 @@ li {
     font-weight: 500;
     color: #fff;
 }
+
+
+/*Product-section-end*/
