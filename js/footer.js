@@ -1,9 +1,9 @@
 class Footer extends HTMLElement {
-  constructor() {
-    super();
-  }
-  connectedCallback() {
-    this.innerHTML = `
+    constructor() {
+        super();
+    }
+    connectedCallback() {
+        this.innerHTML = `
     <footer class="footer">
     <div class="bg-overlay"></div>
     <div class="container">
@@ -11,7 +11,7 @@ class Footer extends HTMLElement {
             <div class="col-lg-3">
                 <div class="first-wrap">
                     <div class="for-logo">
-                        <a href="#"><img src="images/footer.png" alt="logo"></a>
+                        <a href="index.html"><img src="images/footer.png" alt="logo"></a>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
                     <div class="footer-icons d-flex">
@@ -142,6 +142,6 @@ class Footer extends HTMLElement {
     </div>
 </footer>
     `;
-  }
+    }
 }
 customElements.define('footer-component', Footer);

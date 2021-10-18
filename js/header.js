@@ -57,7 +57,7 @@ class Header extends HTMLElement {
                             </ul>
                         </li>
                         <li>
-                            <a href="#!">Contact</a>
+                            <a href="contact.html">Contact</a>
                         </li>
                         </ul>
                     </nav>
