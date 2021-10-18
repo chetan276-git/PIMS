@@ -1,9 +1,9 @@
 class Header extends HTMLElement {
-  constructor() {
-    super();
-  }
-  connectedCallback() {
-    this.innerHTML = `
+    constructor() {
+        super();
+    }
+    connectedCallback() {
+        this.innerHTML = `
                 <header class="navigation">
                 <div
                 class="container"
@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                 <div class="row">
                     <div class="col-12">
                     <div class="brand">
-                        <a href="#!">Logo</a>
+                        <a href="index.html">Logo</a>
                     </div>
                     <nav>
                         <div class="nav-mobile">
@@ -20,10 +20,10 @@ class Header extends HTMLElement {
                         </div>
                         <ul class="nav-list">
                         <li>
-                            <a href="#!">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#!">About</a>
+                            <a href="about.html">About</a>
                         </li>
                         <li>
                             <a href="#!">Services</a>
@@ -108,6 +108,6 @@ class Header extends HTMLElement {
                 </div>
             </div>
           `;
-  }
+    }
 }
 customElements.define('header-component', Header);
