@@ -133,7 +133,7 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="last-section-text-2 d-flex justify-content-lg-end">
+                    <div class="last-section-text-2 text-right">
                         <h4>Copyright © 2021. All rights reserved.</h4>
                     </div>
                 </div>

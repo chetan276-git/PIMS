@@ -28,6 +28,10 @@ li {
     top: 0;
 }
 
+.footer .first-wrap {
+    padding-right: 40px;
+}
+
 .footer .first-wrap .for-logo a img {
     width: 70%;
     margin-bottom: 20px;
@@ -49,7 +53,7 @@ li {
     align-items: center;
     border-radius: 50px;
     background-color: var(--primary-color);
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .footer .first-wrap .footer-icons .box-1:first-child {
@@ -83,7 +87,7 @@ li {
 }
 
 .footer .quick-links .line {
-    width: 55px;
+    width: 90px;
     height: 2px;
     background-color: var(--primary-color);
     position: absolute;
@@ -137,7 +141,7 @@ li {
 .footer .three-box .box-2 {
     background-color: var(--secondary-color);
     color: #fff;
-    padding: 10px;
+    padding: 15px;
 }
 
 .footer .three-box .box-2-icon .circle {
@@ -176,7 +180,7 @@ li {
 .footer .three-box .box-mid {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 10px;
+    padding: 15px;
 }
 
 .footer .three-box .box-mid-icon .circle {
@@ -234,4 +238,55 @@ li {
 
 /*****Media query start******/
 
-@media (min-width: 320px) and (max-width: 768px) {}
+@media (min-width: 320px) and (max-width: 768px) {
+    .footer .first-wrap p {
+        font-size: 14px;
+    }
+    .footer .quick-links h4 {
+        font-size: 16px;
+    }
+    .footer .quick-links {
+        margin-top: 20px;
+    }
+    .footer .quick-links .links ul li a {
+        font-size: 14px;
+    }
+    .footer .three-box {
+        padding: 10px;
+        margin-top: 60px;
+    }
+    .footer .newsletter form {
+        display: block!important;
+        padding: 0px 10px;
+    }
+    .footer .newsletter .form-group input,
+     ::placeholder {
+        font-size: 14px;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    }
+    .footer .three-box .box-2 {
+        display: block!important;
+        text-align: center;
+        padding: 50px;
+    }
+    .footer .three-box .box-2-icon .circle {
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        left: 43%;
+        top: 6%;
+    }
+    .footer .three-box .box-2-icon i {
+        left: 2%;
+    }
+    .footer .last-section {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .footer .last-section-text-2 h4 {
+        text-align: center!important;
+        margin: 15px 0;
+    }
+}
