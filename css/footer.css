@@ -230,3 +230,8 @@ li {
     color: #9398b1;
     font-size: 14px;
 }
+
+
+/*****Media query start******/
+
+@media (min-width: 320px) and (max-width: 768px) {}

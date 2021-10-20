@@ -222,6 +222,162 @@ p {
 
 /*Main-section-end*/
 
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../images/electrician-testing-industrial-machine.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 175px;
+    padding: 0px!important;
+}
+
+.for-space {
+    padding-top: 100px;
+}
+
+.main-wrapper .bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.96;
+    background: #0b1b69;
+    top: 0;
+    left: 0;
+}
+
+.for-padding {
+    padding: 10px 0;
+}
+
+.main-wrapper .left-wrap .left-wrap-title h2 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #ffffff;
+    padding: 0% 5% 0% 20%;
+}
+
+.main-wrapper .right-wrap .right-wrap-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #dedede;
+    padding: 0% 30% 0% 0%;
+}
+
+.inner-wrapper {
+    margin-top: 80px;
+}
+
+.main-thumbnail {
+    padding: 0% 5% 5% 20%;
+}
+
+.main-thumbnail .first-thumbnail .first-wrap-content h3 {
+    margin: 10px 0px 5px 0px;
+    font-size: 24px!important;
+    font-weight: 500!important;
+    line-height: 1.3em;
+    color: #fff;
+}
+
+.main-thumbnail .first-thumbnail .first-wrap-content p {
+    margin-bottom: .9rem;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    line-height: 1.5em;
+    color: #dedede;
+}
+
+.first-wrap-icon .circle-wrap {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: yellow;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 50%
+}
+
+.first-left-wrap {
+    margin-right: 15px;
+}
+
+.first-right-wrap {
+    margin-right: 15px;
+}
+
+.main-thumbnail .second-thumbnail .second-wrap-content h3 {
+    margin: 10px 0px 5px 0px;
+    font-size: 24px!important;
+    font-weight: 500!important;
+    line-height: 1.3em;
+    color: #fff;
+}
+
+.main-thumbnail .second-thumbnail .second-wrap-content p {
+    margin-bottom: .9rem;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    line-height: 1.5em;
+    color: #dedede;
+}
+
+.second-wrap-icon .circle-wrap {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: yellow;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 50%
+}
+
+.main-thumbnail .second-thumbnail .second-left-wrap {
+    margin: 10px 15px 0px 0px;
+}
+
+.video-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../images/handsome-electrician-checking-electrical-box-with-multimetr-in-corridor.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-wrapper .bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.71;
+    top: 0;
+    left: 0;
+}
+
+.video-play-icon {
+    position: absolute;
+    color: var(--primary-clr);
+    font-size: 20px;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+}
+
+.video-play-icon .circle-wrap {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: var(--yellow);
+    border-radius: 50%
+}
+
 
 /*******services***********/
 
