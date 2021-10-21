@@ -234,8 +234,8 @@ li {
      ::placeholder {
         font-size: 14px;
     }
-    .form-group {
-        margin-bottom: 10px;
+    .footer .newsletter .form-group input {
+        width: 100%;
     }
     .footer .three-box .box-2 {
         display: block!important;

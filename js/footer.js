@@ -80,10 +80,12 @@ class Footer extends HTMLElement {
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
                         <form class=" d-flex">
                             <div class="form-group">
-                                <input type="text" placeholder="Your Email Address">
+                                <div class="inner-form">
+                                  <input type="text" placeholder="Your Email Address">
+                                </div>
                             </div>
-                            <button class="btn">Send</button>
-                        </form>
+                                <button class="btn">Send</button>
+                        </form>  
                     </div>
                 </div>
             </div>
@@ -113,7 +115,7 @@ class Footer extends HTMLElement {
                 <div class="circle text-center rounded-circle">1</div>
                 <div class="box-content">
                     <h4>Jl. Sunset Road No.815</h4>
-                    <p>Office Location</p>
+                    <p>Give Us A Call</p>
                 </div>
             </div>
                 </div>
