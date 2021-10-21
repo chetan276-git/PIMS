@@ -91,37 +91,31 @@ class Footer extends HTMLElement {
         <div class="three-box">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="box-2 d-flex justify-content-center align-items-center">
-                        <div class="box-2-icon">
-                            <span class="circle"><i class="fas fa-phone-alt"></i></span>
-                        </div>
-                        <div class="text">
-                            <span>(+62)81 157 2241</span>
-                            <p>Give Us A Call</p>
-                        </div>
-                    </div>
+                <div class="box d-flex justify-content-between align-items-center">
+                <div class="circle text-center rounded-circle">1</div>
+                <div class="box-content">
+                    <h4>(+62)81 157 2241</h4>
+                    <p>Give Us A Call</p>
+                </div>
+            </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="box-mid d-flex justify-content-center align-items-center">
-                        <div class="box-mid-icon">
-                            <span class="circle"><i class="fas fa-envelope"></i></span>
-                        </div>
-                        <div class="text">
-                            <span>support@domain.com</span>
-                            <p>Drop Us a Line</p>
-                        </div>
-                    </div>
+                <div class="mid-box d-flex justify-content-between align-items-center">
+                <div class="circle text-center rounded-circle">1</div>
+                <div class="box-content">
+                    <h4>support@domain.com</h4>
+                    <p>Drop Us a Line</p>
+                </div>
+            </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="box-2 d-flex justify-content-center align-items-center">
-                        <div class="box-2-icon">
-                            <span class="circle"><i class="fas fa-map-marker-alt"></i></span>
-                        </div>
-                        <div class="text">
-                            <span>(+62)81 157 2241</span>
-                            <p>Give Us A Call</p>
-                        </div>
-                    </div>
+                <div class="box d-flex justify-content-between align-items-center">
+                <div class="circle text-center rounded-circle">1</div>
+                <div class="box-content">
+                    <h4>Jl. Sunset Road No.815</h4>
+                    <p>Office Location</p>
+                </div>
+            </div>
                 </div>
             </div>
         </div>
