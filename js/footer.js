@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
     <div class="bg-overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-md-4 col-lg-3">
                 <div class="first-wrap">
                     <div class="for-logo">
                         <a href="index.html"><img src="images/footer.png" alt="logo"></a>
@@ -22,7 +22,8 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+        <div class="col-md-4 col-lg-3">
+            <div class="inner-quick-links">
                 <div class="quick-links">
                     <h4>Quick Links</h4>
                     <div class="line"></div>
@@ -47,7 +48,8 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+        </div>
+            <div class="col-md-4 col-lg-3">
                 <div class="quick-links">
                     <h4>Useful Links</h4>
                     <div class="line"></div>
@@ -72,7 +74,7 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-12 col-lg-3">
                 <div class="newsletter">
                     <div class="quick-links">
                         <h4>Newsletter</h4>
@@ -92,16 +94,16 @@ class Footer extends HTMLElement {
         </div>
         <div class="three-box">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-md-4 col-lg-4">
                 <div class="box d-flex justify-content-between align-items-center">
                 <div class="circle text-center rounded-circle">1</div>
                 <div class="box-content">
-                    <h4>(+62)81 157 2241</h4>
+                    <h4>Jl.Sunset Road No.815</h4>
                     <p>Give Us A Call</p>
                 </div>
             </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4 col-lg-4">
                 <div class="mid-box d-flex justify-content-between align-items-center">
                 <div class="circle text-center rounded-circle">1</div>
                 <div class="box-content">
@@ -110,11 +112,11 @@ class Footer extends HTMLElement {
                 </div>
             </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4 col-lg-4">
                 <div class="box d-flex justify-content-between align-items-center">
                 <div class="circle text-center rounded-circle">1</div>
                 <div class="box-content">
-                    <h4>Jl. Sunset Road No.815</h4>
+                    <h4>Jl.Sunset Road No.815</h4>
                     <p>Give Us A Call</p>
                 </div>
             </div>

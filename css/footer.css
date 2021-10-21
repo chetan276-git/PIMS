@@ -53,7 +53,7 @@ li {
     align-items: center;
     border-radius: 50px;
     background-color: var(--primary-color);
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .footer .first-wrap .footer-icons .box-1:first-child {
@@ -84,6 +84,10 @@ li {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+}
+
+.inner-quick-links {
+    margin-left: 48px;
 }
 
 .footer .quick-links .line {
@@ -140,7 +144,7 @@ li {
 
 .three-box .box {
     background-color: var(--secondary-color);
-    padding: 20px 60px;
+    padding: 20px 44px;
     margin-right: 15px;
 }
 
@@ -167,7 +171,7 @@ li {
 
 .three-box .mid-box {
     background-color: var(--primary-color);
-    padding: 20px 60px;
+    padding: 20px 46px;
     margin-right: 15px;
 }
 
@@ -210,29 +214,67 @@ li {
 
 /*****Media query start******/
 
-@media (min-width: 320px) and (max-width: 768px) {
-    .footer .first-wrap p {
+@media (max-width:1024px) {
+    .three-box .box .box-content h4 {
         font-size: 14px;
+    }
+    .three-box .mid-box .box-content h4 {
+        font-size: 14px;
+    }
+    .three-box .box .box-content p {
+        font-size: 16px;
+    }
+    .three-box .mid-box .box-content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    .footer .first-wrap p {
+        font-size: 14px!important;
     }
     .footer .quick-links h4 {
         font-size: 16px;
     }
-    .footer .quick-links {
-        margin-top: 20px;
-    }
     .footer .quick-links .links ul li a {
         font-size: 14px;
+    }
+    .footer .newsletter .form-group input,
+     ::placeholder {
+        font-size: 14px;
+    }
+    .three-box .box .box-content p {
+        font-size: 14px;
+    }
+    .three-box .mid-box .box-content p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:320px) and (max-width:1200px) {
+    .container {
+        max-width: 100%!important;
+    }
+    .inner-quick-links {
+        margin-left: 0px;
+    }
+    .three-box .box .circle {
+        margin-bottom: 0;
+    }
+    .three-box .mid-box .circle {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .footer .quick-links {
+        margin-top: 20px;
     }
     .footer .three-box {
         padding: 10px;
     }
     .footer .newsletter form {
         display: block!important;
-        padding: 0px 10px;
-    }
-    .footer .newsletter .form-group input,
-     ::placeholder {
-        font-size: 14px;
     }
     .footer .newsletter .form-group input {
         width: 100%;
@@ -268,23 +310,70 @@ li {
         margin: 0 auto;
         margin-bottom: 10px;
     }
-    .three-box .box .box-content h4 {
-        font-size: 14px;
-    }
-    .three-box .box .box-content p {
-        font-size: 14px;
-    }
-    .three-box .mid-box .box-content h4 {
-        font-size: 14px;
-    }
-    .three-box .mid-box .box-content p {
-        font-size: 14px;
-    }
     .footer .last-section {
         text-align: center;
     }
     .footer .last-section-text-2 h4 {
         text-align: center!important;
         margin: 15px 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer .newsletter {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .footer .newsletter .quick-links .line {
+        width: 147px;
+        height: 2px;
+        left: 41%;
+        margin-bottom: 20px;
+    }
+    .footer .newsletter p {
+        padding: 4% 10% 3% 10%;
+    }
+    .footer .newsletter form .btn {
+        width: 105px;
+    }
+    .footer .newsletter .form-group {
+        width: 100%;
+    }
+    .footer .newsletter .form-group input {
+        width: 100%!important;
+    }
+    .three-box .box {
+        margin-right: 0;
+        padding: 16px 30px;
+    }
+    .three-box .mid-box {
+        margin-right: 0;
+        padding: 16px 32px;
+    }
+    .footer .first-wrap .for-logo a img {
+        width: 100%;
+    }
+    .footer .first-wrap {
+        padding: 0;
+    }
+    .inner-quick-links {
+        padding-left: 40px;
+    }
+    .quick-links {
+        margin-top: 15px;
+    }
+    .three-box .box .circle {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .three-box .mid-box .circle {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
 }
