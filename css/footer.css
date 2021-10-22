@@ -32,13 +32,13 @@ li {
     padding-right: 40px;
 }
 
-.footer .first-wrap .for-logo a img {
-    width: 70%;
-    margin-bottom: 20px;
+.footer .first-wrap .for-logo {
+    width: 100%;
+    height: 100%;
 }
 
-.footer .first-wrap p {
-    margin-bottom: 20px;
+.footer .first-wrap .for-logo a img {
+    width: 170px;
 }
 
 .footer .first-wrap .footer-icons {
@@ -53,7 +53,7 @@ li {
     align-items: center;
     border-radius: 50px;
     background-color: var(--primary-color);
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .footer .first-wrap .footer-icons .box-1:first-child {
@@ -78,16 +78,16 @@ li {
     transform: translate(-50%, -50%);
 }
 
+.footer .quick-links {
+    padding-top: 30px;
+}
+
 .footer .quick-links h4 {
     position: relative;
     margin-bottom: 20px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-}
-
-.inner-quick-links {
-    margin-left: 48px;
 }
 
 .footer .quick-links .line {
@@ -106,7 +106,7 @@ li {
 }
 
 .footer .quick-links .links ul li {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .footer .newsletter p {
@@ -114,11 +114,10 @@ li {
 }
 
 .footer .newsletter form {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .footer .newsletter form .btn {
-    width: 100%;
     height: 56px;
     padding: 15px 26px 11px 26px;
     font-size: 14px;
@@ -128,8 +127,12 @@ li {
     border-radius: 0;
 }
 
+.footer .newsletter .form-group input {
+    width: 250px;
+}
+
 .footer .newsletter .form-group input,
-::placeholder {
+ ::placeholder {
     background-color: #fff;
     border-radius: 0;
     font-size: 16px;
@@ -139,7 +142,7 @@ li {
 }
 
 .three-box {
-    margin: 20px 0;
+    margin: 70px 0;
 }
 
 .three-box .box {
@@ -151,8 +154,13 @@ li {
 .three-box .box .circle {
     width: 50px;
     height: 50px;
-    line-height: 50px;
+    line-height: 55px;
     background: var(--yellow);
+}
+
+.three-box .box .circle i {
+    font-size: 26px;
+    color: var(--secondary-color);
 }
 
 .three-box .box .box-content h4 {
@@ -178,8 +186,13 @@ li {
 .three-box .mid-box .circle {
     width: 50px;
     height: 50px;
-    line-height: 50px;
+    line-height: 57px;
     background: var(--secondary-color);
+}
+
+.three-box .mid-box .circle i {
+    font-size: 26px;
+    color: #fff;
 }
 
 .three-box .mid-box .box-content h4 {
@@ -227,6 +240,12 @@ li {
     .three-box .mid-box .box-content p {
         font-size: 16px;
     }
+    .three-box .box .circle i {
+        font-size: 26px;
+    }
+    .three-box .mid-box .circle i {
+        font-size: 26px;
+    }
 }
 
 @media (max-width:768px) {
@@ -264,17 +283,54 @@ li {
     .three-box .mid-box .circle {
         margin-bottom: 0;
     }
+    .three-box .box .circle {
+        width: 40px;
+        height: 40px;
+        line-height: 45px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .three-box .mid-box .circle {
+        width: 40px;
+        height: 40px;
+        line-height: 45px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
-    .footer .quick-links {
-        margin-top: 20px;
+@media (min-width: 320px) and (max-width: 767px) {
+    .quick-links {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 737px) {
+    .footer .first-wrap .for-logo a img {
+        width: 30%!important;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 920px) {
+    .footer .first-wrap .for-logo a img {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 766px) {
+    .footer {
+        padding-top: 0px;
     }
     .footer .three-box {
         padding: 10px;
     }
     .footer .newsletter form {
         display: block!important;
+    }
+    .footer .newsletter form .btn {
+        width: 100%;
     }
     .footer .newsletter .form-group input {
         width: 100%;
@@ -295,20 +351,7 @@ li {
         margin-right: 0px;
         padding: 15px;
         text-align: center;
-    }
-    .three-box .box .circle {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        margin: 0 auto;
-        margin-bottom: 10px;
-    }
-    .three-box .mid-box .circle {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        margin: 0 auto;
-        margin-bottom: 10px;
+        margin-top: 20px;
     }
     .footer .last-section {
         text-align: center;
@@ -317,9 +360,12 @@ li {
         text-align: center!important;
         margin: 15px 0;
     }
+    .footer .first-wrap {
+        padding-right: 0px;
+    }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     .footer .newsletter {
         padding-top: 40px;
         text-align: center;
@@ -350,30 +396,65 @@ li {
         margin-right: 0;
         padding: 16px 32px;
     }
-    .footer .first-wrap .for-logo a img {
-        width: 100%;
-    }
     .footer .first-wrap {
         padding: 0;
+    }
+    .footer .first-wrap p {
+        margin: 0;
     }
     .inner-quick-links {
         padding-left: 40px;
     }
-    .quick-links {
-        margin-top: 15px;
+    .footer .last-section {
+        padding: 10px;
+    }
+    .three-box .box {
+        margin-right: 0;
+        padding: 16px 14px;
+    }
+    .three-box .mid-box {
+        margin-right: 0;
+        padding: 16px 14px;
     }
     .three-box .box .circle {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        margin: 0 auto;
-        margin-bottom: 10px;
+        width: 32px;
+        height: 32px;
+        line-height: 37px;
+    }
+    .three-box .box .circle i {
+        font-size: 20px;
     }
     .three-box .mid-box .circle {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        margin: 0 auto;
-        margin-bottom: 10px;
+        width: 32px;
+        height: 32px;
+        line-height: 37px;
+    }
+    .three-box .mid-box .circle i {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .quick-links {
+        margin-top: 0px;
+    }
+    .footer .newsletter {
+        padding-top: 0px;
+        text-align: left;
+    }
+    .footer .newsletter p {
+        padding: 7% 0% 0% 0%;
+    }
+    .footer .newsletter .quick-links .line {
+        left: 0;
+    }
+    .inner-quick-links {
+        padding-left: 0px;
+    }
+    .footer .quick-links .line {
+        width: 90px;
+    }
+    .footer .quick-links .links ul li a {
+        font-size: 14px;
     }
 }

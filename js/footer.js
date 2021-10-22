@@ -8,10 +8,10 @@ class Footer extends HTMLElement {
     <div class="bg-overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-lg-3">
+            <div class="col-md-4 col-lg-4">
                 <div class="first-wrap">
                     <div class="for-logo">
-                        <a href="index.html"><img src="images/footer.png" alt="logo"></a>
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
                     <div class="footer-icons d-flex">
@@ -22,7 +22,7 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
             </div>
-        <div class="col-md-4 col-lg-3">
+        <div class="col-md-4 col-lg-2">
             <div class="inner-quick-links">
                 <div class="quick-links">
                     <h4>Quick Links</h4>
@@ -49,7 +49,7 @@ class Footer extends HTMLElement {
                 </div>
             </div>
         </div>
-            <div class="col-md-4 col-lg-3">
+            <div class="col-md-4 col-lg-2">
                 <div class="quick-links">
                     <h4>Useful Links</h4>
                     <div class="line"></div>
@@ -74,7 +74,7 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-3">
+            <div class="col-md-12 col-lg-4">
                 <div class="newsletter">
                     <div class="quick-links">
                         <h4>Newsletter</h4>
@@ -96,7 +96,9 @@ class Footer extends HTMLElement {
             <div class="row">
                 <div class="col-md-4 col-lg-4">
                 <div class="box d-flex justify-content-between align-items-center">
-                <div class="circle text-center rounded-circle">1</div>
+                <div class="circle text-center rounded-circle">
+                   <i class="fas fa-phone-alt"></i>
+                </div>
                 <div class="box-content">
                     <h4>Jl.Sunset Road No.815</h4>
                     <p>Give Us A Call</p>
@@ -105,7 +107,9 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-md-4 col-lg-4">
                 <div class="mid-box d-flex justify-content-between align-items-center">
-                <div class="circle text-center rounded-circle">1</div>
+                <div class="circle text-center rounded-circle">
+                  <i class="fas fa-envelope"></i>
+                </div>
                 <div class="box-content">
                     <h4>support@domain.com</h4>
                     <p>Drop Us a Line</p>
@@ -114,7 +118,9 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-md-4 col-lg-4">
                 <div class="box d-flex justify-content-between align-items-center">
-                <div class="circle text-center rounded-circle">1</div>
+                <div class="circle text-center rounded-circle">
+                   <i class="fas fa-map-marker-alt"></i>
+                </div>
                 <div class="box-content">
                     <h4>Jl.Sunset Road No.815</h4>
                     <p>Give Us A Call</p>
@@ -125,12 +131,12 @@ class Footer extends HTMLElement {
         </div>
         <div class="last-section">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6 col-lg-6">
                     <div class="last-section-text">
                         <h4> Electrical Service & Installation Template Kit by Jegtheme </h4>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6 col-lg-6">
                     <div class="last-section-text-2 text-right">
                         <h4>Copyright © 2021. All rights reserved.</h4>
                     </div>
